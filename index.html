@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="pt-BR" class="h-full">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gerenciador de Tarefas</title>
+    
+    <!-- 🛑 APLICAR CSS FORÇADO VIA CDN (RESOLVE PROBLEMAS DE VITE/TAILWIND) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Garante que o corpo e o root preencham a tela */
+        body, #root {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            font-family: Inter, sans-serif;
+        }
+    </style>
+  </head>
+  <body class="h-full w-full"> 
+    <div id="root"></div>
+    <!-- Script de carregamento do React -->
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
