@@ -3,7 +3,7 @@ import React, { useState, useEffect, useMemo, useCallback } from 'react';
 import { RefreshCcw, CheckCircle, Trash2, Edit2, Loader, X, Save, Search, AlertTriangle, ArrowUp, ArrowDown, Check } from 'lucide-react';
 
 // URL base da sua API Node.js/Express
-const API_BASE_URL = 'http://localhost:3333/tasks';
+const API_BASE_URL = 'https://api-gerenciamento-de-tarefa.onrender.com';
 
 // Mapeamento de Prioridades para Estilos
 const PRIORITY_MAP = {
